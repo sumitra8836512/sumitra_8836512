@@ -45,6 +45,8 @@ time.sleep(5)
 # no_thanks_button.click()
 # time.sleep(2)
 
+
+
 # Verifying that the laptop has been added to the cart
 cart_count = driver.find_element("id","nav-cart-count")
 assert cart_count.text == "1"
